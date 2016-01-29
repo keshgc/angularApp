@@ -1,0 +1,20 @@
+<div class="food-list-page">
+ <div class="search">
+            <input ng-model="query" name="search" >
+              <p>Sord <select ng-model="foodOrder">
+                        <option>foodName </option>
+                        <option>foodCost </option>
+                  </select>
+            </p>     
+        </div>
+        <p>Total-: {{ total }}</p>
+        <div class="food-list" ng-repeat="item in foodlist | filter: query | orderBy: foodOrder ">         <p>id:  {{item.foodId}}</p> 
+            <img src="http://placehold.it/100x100" >
+            <h3>{{item.foodId +" : "+ item.foodName}}</h3>
+            <p>{{item.foodCost}}</p>
+                <a href="#/details/{{foodlist.indexOf(item)}}">Details</a>
+                <p class="item-count"><input ng-change="totCount()" ng-model="count" type="text" value="{{count}}"><a class="minus" ng-click="count = count - 1" href="javascript:void(0)">-</a> <a class="plus" ng-click="count = count + 1" href="javascript:void(0)">+</a></p>
+            </div>
+
+
+</div>

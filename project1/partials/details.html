@@ -1,0 +1,12 @@
+<div class="food-details-page">
+<div class="food-list" ng-model="foodlist">
+   <h1>{{foodlist[whichItem].foodName}}</h1>
+    <img src="http://placehold.it/100x100" >
+    <h3>{{foodlist[whichItem].foodName}}</h3>
+    <p>{{foodlist[whichItem].foodDetails}}</p>
+ </div>
+
+    <a href="#/details/{{PrevItem}}">Prev</a>
+     <a href="index.html">Home</a>
+     <a href="#/details/{{NextItem}}">Next</a>
+</div>

@@ -1,0 +1,86 @@
+[
+    {
+        "foodId":"01",
+       "foodName" : "Kabab",
+        "foodCost" :  "30",
+        "foodDetails" : "Food Details of 01"
+    },
+    {
+         "foodId":"02",
+        "foodName" : "KABAB 40",
+        "foodCost" :  "40",
+         "foodDetails" : "Food Details of 02"
+    },
+    {
+         "foodId":"03",
+        "foodName" : "KABAB 50",
+        "foodCost" :  "50",
+         "foodDetails" : "Food Details of 03"
+    },
+    {
+         "foodId":"04",
+        "foodName" : "CHILLI CHICKEN",
+        "foodCost" :  "70",
+         "foodDetails" : "Food Details of 04"
+    },
+    {
+         "foodId":"05",
+        "foodName" : "PEPPER CHICKEN",
+        "foodCost" :  "70"
+    },
+    {
+         "foodId":"06",
+        "foodName" : "CKICKEN MANCHURIAN",
+        "foodCost" :  "70"
+    },
+    {
+         "foodId":"07",
+        "foodName" : "CHICKEN 65",
+        "foodCost" :  "65"
+    },
+    {
+         "foodId":"08",
+        "foodName" : "LOLLY POP ",
+        "foodCost" :  "70"
+    },
+    {
+         "foodId":"09",
+        "foodName" : "LOLLY POP HALF",
+        "foodCost" :  "35"
+    },
+    {
+         "foodId":"10",
+        "foodName" : "RED PEPPER CHICKEN",
+        "foodCost" :  "110"
+    },
+    {
+         "foodId":"11",
+        "foodName" : "LIVER FRY",
+        "foodCost" :  "40"
+    },
+    {
+         "foodId":"12",
+        "foodName" : "LIVER FRY HALF",
+        "foodCost" : "25"
+    },
+    {
+         "foodId":"13",
+        "foodName" : "CHICKEN FRY",
+        "foodCost" :  "50"
+    },
+    {
+         "foodId":"14",
+        "foodName" : "MANGOLIAN CHICKEN",
+        "foodCost" :  "110"
+    },
+    {
+         "foodId":"15",
+        "foodName" : "CKICKEN HOT GARLIC",
+        "foodCost" :  "110"
+    },
+    {
+         "foodId":"16",
+        "foodName" : "LEMEON CHICKEN",
+        "foodCost" :  "110"
+    }
+]
